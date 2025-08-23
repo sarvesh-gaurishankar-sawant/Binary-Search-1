@@ -3,7 +3,7 @@
 // SC: O(1)
 // Use binary search since it is a sorted array
 // Check which half is sorted and then apply binary search on that half if the target is present in it or ignore it 
-class Solution {
+class ProblemOne {
     public int search(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;
